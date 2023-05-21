@@ -2,25 +2,25 @@ name: Seminario Unit Test Mocha
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ] # branch para executar o workflow
   pull_request:
-    branches: [ main ]
+    branches: [ main ] # branch para executar o workflow
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # sistema operacional
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 18.x
+    - uses: actions/checkout@v2 # ação para clonar o repositório
+    - name: Use Node.js 18.x # ação para instalar o node
       uses: actions/setup-node@v1
       with:
         node-version: 18.x
-    - name: npm install and test
+    - name: npm install and test # ação para instalar as dependências e executar os testes
       run: |
         npm install
         npm test
-    - name: Upload test results
+    - name: Upload test results # ação para fazer upload dos resultados dos testes
       uses: actions/upload-artifact@v2
       with:
         name: mocha-report
