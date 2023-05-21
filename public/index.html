@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de usuários</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Cadastro de usuários</h2>
+    <form id="form">
+        <label for="name">Nome</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Digite o nome do usuário">
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Digite o e-mail do usuário">
+        <br>
+        <button type="button" id="btn-add">Cadastrar</button>
+        <br>
+        <button type="button" id="btn-remove">Remover último usuário</button>
+    </form>
+    <hr>
+    <h2>Usuários cadastrados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody id="users">
+        </tbody>
+    </table>
+
+    <script type="module" src="js/Main.js"></script>
+    <script type="module" src="js/User.js"></script>
+    <script type="module" src="js/UserStack.js"></script>
+</body>
+
+</html>

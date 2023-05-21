@@ -1,4 +1,4 @@
-module.exports = class Stack {
+export default class UserStack {
     constructor() {
         this.stack = []
     }

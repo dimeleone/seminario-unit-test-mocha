@@ -2,14 +2,17 @@
   "name": "seminario-unit-test-mocha",
   "version": "1.0.0",
   "description": "Projeto para seminario de testes unitarios usando Mocha JS",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/server.js",
     "test": "mocha --reporter spec --reporter mochawesome --reporter-options reportDir=mocha-report,reportFilename=test-results"
   },
   "author": "Dimitri Leone",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
+    "express": "^4.18.2",
     "mocha": "^10.2.0"
   },
   "devDependencies": {

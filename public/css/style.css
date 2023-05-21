@@ -1,0 +1,78 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+#form {
+    margin-bottom: 20px;
+}
+
+#form input {
+    margin-right: 10px;
+}
+
+#form button {
+    margin-top: 10px;
+}
+
+#form label {
+    display: inline-block;
+    width: 100px;
+}
+
+#form input,
+#form button {
+    width: 200px;
+}
+
+#form input:focus,
+#form button:focus {
+    outline: none;
+}
+
+#form button {
+    padding: 5px;
+}
+
+#form button:hover {
+    cursor: pointer;
+}
+
+#form button:active {
+    background-color: #ccc;
+}
+
+#form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#form button:disabled:hover {
+    background-color: #ccc;
+}
+
+#form button:disabled:active {
+    background-color: #ccc;
+}
+
+#form button:disabled:focus {
+    outline: none;
+}
+
+#form button:disabled:active:focus {
+    outline: none;
+}
