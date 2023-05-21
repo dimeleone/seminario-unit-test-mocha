@@ -13,7 +13,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/)
 
-*Preferencialmente, instale a versão [18.x](https://nodejs.org/en/blog/release/v18.16.0) LTS do Node.j*
+*Preferencialmente, instale a versão [18.x](https://nodejs.org/en/blog/release/v18.16.0) LTS do Node.js*
 
 #### Executando o projeto
 
