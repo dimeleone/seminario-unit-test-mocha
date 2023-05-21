@@ -2,7 +2,7 @@
 
 ### Sobre o projeto
 
-Este projeto foi desenvolvido para o seminário de testes unitários da disciplina C214, contendo um exemplo de teste de uma pilha de usuários utilizando a biblioteca Mocha do JavaScript. Alem disso, foi adicionado uma página HTML simples para utilizar a pilha de usuários.
+Este projeto foi desenvolvido para o seminário de testes unitários da disciplina C214 - Engenharia de Software, contendo um exemplo de teste de uma pilha de usuários utilizando a biblioteca Mocha do JavaScript. Além disso, foi adicionada uma página HTML simples para utilizar a pilha de usuários.
 
 ### Como executar o projeto
 
